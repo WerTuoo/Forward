@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.beatles{
+   height: 100%;
+   width: 100%;
+   background: url(assets/beatles.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   background: color #333;
+}
+
+#logo{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    position: absolute;
+   margin-left: 50%;
+   margin-top: 10%;;
+   transform: translateX(-50%);
+   border: rgb(0, 0, 0) 8px solid;
+   padding-right: 15px;
+   padding-bottom: 12px;
+   border-radius: 100%;
+   background-color: rgba(236, 236, 236, 0.562);
+}
+
+#logo:hover{
+cursor: pointer;
+background-color: rgb(236, 236, 236);
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #333;
+    margin: 0;
+    font-family: 'Old Standard TT', serif;  
+    font-size: 50px;
+    border-radius: 70px;
+    font-weight: 900px;
+}
+
+@media screen and (max-width: 780px ) {
+ #logo{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+   margin-left: 50%;
+   margin-top: 10%;;
+   transform: translateX(-50%);
+   border: rgb(0, 0, 0) 8px solid;
+   padding-right: 12px;
+   padding-bottom: 12px;
+   border-radius: 100%;
+   background-color: rgba(236, 236, 236, 0.562);
+ }   
+}
